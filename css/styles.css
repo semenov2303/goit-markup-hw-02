@@ -1,0 +1,158 @@
+:root {
+    --color-primary: #757575;
+    --color-title: #212121;
+    --color-accent: #2196F3;
+    --color-white: #fff;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: var(--color-primary);
+    background: var(--color-white);
+}
+ul {
+    list-style: none;
+}
+h2, h3 {
+    color: var(--color-title);
+}
+   /*main nav*/
+.logo {
+    font-family: 'releway', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+}
+.part-web {color: var(--color-accent);}
+.part-studio {color: #000000;
+}
+.link-studio{
+    color: var(--color-title);
+    text-decoration: none;
+}
+.main-link .link-studio.current {
+    color: var(--color-accent);
+}
+.link-studio:hover,
+.link-studio:focus{
+    color: var(--color-accent);
+}
+.link-portfolio {
+    color: var(--color-title);
+    text-decoration: none;
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+    color: var(--color-accent);
+}
+.link-contact {
+    color: var(--color-title);
+    text-decoration: none;
+}
+.main-link .link-portfolio.current {
+    color: var(--color-accent);
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--color-accent);
+}
+.mail {
+color: #757575;
+text-decoration: none;
+}
+.mail:hover,
+.mail:focus{
+    color: var(--color-accent);
+}
+.phone {
+    color: #757575;
+    text-decoration: none;
+}
+.phone:hover,
+.phone:focus {
+    color: var(--color-accent);
+}
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-white);
+}
+.hero-button {
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    box-shadow: 0px 4px 4px;
+}
+.hero-button:hover {
+   background-color: #367ab3;
+}
+.benefits  h2{
+    color: rgba(0, 0, 0, 0);
+}
+.benefits  h3 {
+    font-size: 14px;
+    color: var(--color-title);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.our-team h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.our-team p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer {
+    background-color: #2F303A;
+}
+.part-studio-footer {
+    color: var(--color-white);
+}
+.mail-footer {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail-footer:hover,
+.mail-footer:focus {
+    color: var(--color-accent);
+}
+.phone-footer {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.phone-footer:hover,
+.phone-footer:focus {
+    color: var(--color-accent);
+}
+.address{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*css portfolio*/
+.filter-portfolio {
+    color: rgba(0, 0, 0, 0);
+} 
+.filters {
+    background: #F5F4FA;
+}
+.filters:hover {
+    color: var(--color-white);
+    background-color:var(--color-accent);    
+}
