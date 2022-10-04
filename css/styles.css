@@ -32,6 +32,8 @@ h2, h3 {
 .link {
     color: var(--color-title);
     text-decoration: none;
+    font-size:  14px;
+    font-weight: 500;
 }
 .main-link .link.current {
     color: var(--color-accent);
@@ -71,6 +73,10 @@ text-decoration: none;
 .hero-button:hover,
 .hero-button:focus {
    background-color: #367ab3;
+}
+.benefits p {
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 .benefits  h2{
     color: rgba(0, 0, 0, 0);
