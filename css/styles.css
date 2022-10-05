@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     color: var(--color-primary);
     background: var(--color-white);
+    text-decoration: none;
 }
 ul {
     list-style: none;
@@ -45,6 +46,7 @@ h2, h3 {
 .communication {
 color: #757575;
 text-decoration: none;
+font-weight: 500;
 }
 .communication:hover,
 .communication:focus{
@@ -128,8 +130,13 @@ text-decoration: none;
     font-size: 14px;
     font-weight: 400;
 }
-.lik-footer {
+.footer_adress {
+    color: var(--color-white);
+    font-style: normal;
+}
+.link-footer {
    color: rgba(255, 255, 255, 0.6);
+   font-style: normal;
 }
 /*css portfolio*/
 .filter-portfolio {
